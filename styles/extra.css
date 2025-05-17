@@ -1,0 +1,17 @@
+/* docs/extra.css */
+
+.md-sidebar {
+    /* width: 210px !important;         Adjust this value to your liking */
+    /*min-width: 180px !important;      Prevents being too small on resize */
+    /*max-width: 260px !important;      Optional: limits how wide it can get */
+    /*overflow: auto !important;        Prevents overflow */
+    /*padding: 0 !important;           Optional: removes padding */
+    /*margin: 20 !important;            Optional: removes margin */
+    /* background-color: #0b64b8 !important; Optional: sets a background color */
+    /*border-right: 1px solid #811313 !important;  Optional: adds a border */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;  Optional: adds a shadow */
+    /*
+    transition: width 0.3s ease !important;  Optional: smooth transition */
+
+  }
+  
