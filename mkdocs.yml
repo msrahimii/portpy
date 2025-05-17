@@ -39,8 +39,6 @@ nav:
       - Overview: user-guide/overview.md
       - Workflow: user-guide/workflow.md
       - Command-Line Interface: user-guide/cli.md
-      - Visualization: user-guide/visualization.md
-      - FAQ: user-guide/faq.md
   - Tutorials:
       - Loading Data: tutorials/loading-data.md
       - Optimization Example: tutorials/optimization.md
