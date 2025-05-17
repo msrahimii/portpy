@@ -6,47 +6,42 @@
 
 ---
 
-PortPy is an open-source library developed to advance research and clinical practice in cancer radiotherapy treatment planning.  
-It provides tools, datasets, and algorithms to enable high-quality, reproducible radiation therapy planning and optimization.
+**PortPy** is a collaborative, open-source Python library developed to advance both research and clinical practice in cancer radiotherapy treatment planning.  
+It offers tools, datasets, and optimization algorithms for reproducible, high-quality radiation therapy planning.
 
 ---
 
-## 🚀 Quick Links
+## 🚀 Quick Start
 
-- [Installation](installation.md){ target=_blank }
-- [Getting Started](getting-started.md){ target=_blank }
-- [Examples](examples.md){ target=_blank }
-- [API Reference](api-reference.md){ target=_blank }
-- <a href="https://github.com/PortPy-Project/PortPy" target="_blank" rel="noopener">GitHub Repository</a>
-
+1. **[Installation](installation.md):** Set up PortPy via pip, conda, or Docker.
+2. **[Getting Started](getting-started.md):** Run your first optimization in minutes.
+3. **[User Guide](user-guide/overview.md):** Dive deep into concepts, workflow, and visualization.
+4. **[Tutorials](tutorials/loading-data.md):** Hands-on, step-by-step walkthroughs.
+5. **[API Reference](api/portpy.md):** Full developer documentation.
 
 ---
 
 ## ✨ Features
 
-- **Benchmark Datasets**: Access to clinical data for algorithm development and evaluation.
-- **Optimization Frameworks**: Formulate and solve complex planning problems.
-- **Visualization Tools**: Visualize dose distributions and treatment plans.
-- **Evaluation Modules**: Assess clinical plan quality using standard metrics.
+- **Benchmark Datasets:** Real-world clinical data for research and evaluation.
+- **Flexible Optimization:** Build and solve advanced radiotherapy planning problems.
+- **Visualization Tools:** Visualize dose distributions, plans, and analysis metrics.
+- **Extensible Framework:** Integrate custom algorithms or solvers easily.
+- **Community Driven:** Open for academic and clinical collaboration.
 
 ---
 
-## 🧑‍💻 Contributing
+## 📚 Learn More
 
-PortPy is maintained by the research community.  
-[Contributions](about.md) are welcome!
-
----
-
-## 📄 License
-
-PortPy is distributed under the Apache 2.0 license with a Commons Clause.  
-See [About](about.md) for details.
+- [Datasets & Licensing](datasets.md)
+- [Publications & Citations](publications.md)
+- [Contributing Guidelines](contributing.md)
+- <a href="https://github.com/PortPy-Project/PortPy" target="_blank" rel="noopener">GitHub Repository</a>
 
 ---
 
 <div style="text-align: center; margin-top: 2em;">
     <a href="https://github.com/PortPy-Project/PortPy" target="_blank" rel="noopener" >
-        <img alt="GitHub Repo" src="https://img.shields.io/github/stars/PortPy-Project/PortPy?style=social" style="vertical-align: middle;" target="_blank" /> PortPy on GitHub
+        <img alt="GitHub Repo" src="https://img.shields.io/github/stars/PortPy-Project/PortPy?style=social" style="vertical-align: middle;" /> PortPy on GitHub
     </a>
 </div>

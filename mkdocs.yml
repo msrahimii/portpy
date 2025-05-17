@@ -35,9 +35,24 @@ nav:
   - Home: index.md
   - Installation: installation.md
   - Getting Started: getting-started.md
+  - User Guide:
+      - Overview: user-guide/overview.md
+      - Workflow: user-guide/workflow.md
+      - Command-Line Interface: user-guide/cli.md
+      - Visualization: user-guide/visualization.md
+      - FAQ: user-guide/faq.md
+  - Tutorials:
+      - Loading Data: tutorials/loading-data.md
+      - Optimization Example: tutorials/optimization.md
+      - Beam Orientation: tutorials/beam-orientation.md
+      - Custom Algorithms: tutorials/custom-algorithms.md
   - Examples: examples.md
-  - API Reference: api-reference.md
+  - API Reference:
+      - PortPy API: api/portpy.md
+  - Datasets: datasets.md
+  - Publications: publications.md
   - About: about.md
+  - Contributing: contributing.md
 plugins:
   - search
   - mkdocstrings:
