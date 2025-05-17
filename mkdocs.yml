@@ -1,0 +1,63 @@
+site_name: PortPy
+site_description: Open-source Python library for radiation therapy planning and optimization.
+site_author: PortPy Contributors
+repo_url: https://github.com/PortPy-Project/PortPy
+repo_name: PortPy on GitHub
+theme:
+  name: material
+  logo: images/PortPy_logo.png
+  favicon: images/PortPy_logo.png
+  palette:
+    - scheme: default
+      primary: deep purple    # Modern, professional tone
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Getting Started: getting-started.md
+  - Examples: examples.md
+  - API Reference: api-reference.md
+  - About: about.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [portpy]
+  - tags
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PortPy-Project/PortPy
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/portpy-photon/
+extra_javascript:
+  - js/extra.js
+extra_css:
+  - styles/extra.css 
