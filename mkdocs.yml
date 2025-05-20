@@ -49,7 +49,7 @@ nav:
       - PortPy API: api/portpy.md
   - Datasets: datasets.md
   - Publications: publications.md
-  - About: about.md
+#  - About: about.md
   - Contributing: contributing.md
 plugins:
   - search
