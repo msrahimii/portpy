@@ -33,7 +33,7 @@ theme:
     - content.code.annotate
 nav:
   - Home: index.md
-#  - Installation: installation.md
+  - Installation: installation.md
 #  - Getting Started: getting-started.md
   - User Guide:
       - Overview: user-guide/overview.md
